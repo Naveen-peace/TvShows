@@ -20,7 +20,17 @@ body {
     /* height: 100%; */
 
 }
-
+.home-card-head.css-jfdv4h-MuiStack-root {
+    /* display: -webkit-box; */
+    /* display: -webkit-flex; */
+    /* display: -ms-flexbox; */
+    width: 100%;
+    height: 100%;
+    display: grid;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
 /* colour #000f25 */
 .container {
     margin: 0 140px auto;

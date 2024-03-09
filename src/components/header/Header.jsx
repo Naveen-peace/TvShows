@@ -7,11 +7,11 @@ function Header() {
         <div className="nav-head">
             <div className="container">
                 <div className="header">
-                    <Link to={'/'}>
+                    <Link to={'/TvShows'}>
                         <img src={icon} alt="justicon" />
                     </Link>
                     <div className="header-nav">
-                        <Link to={'/'}>
+                        <Link to={'/TvShows'}>
                             <Icon icon="ic:sharp-home" width="24" height="24" />
                             Home
                         </Link>

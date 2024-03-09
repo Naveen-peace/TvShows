@@ -12,7 +12,7 @@ function RoutePath() {
       <Provider store={store}>
         <BrowserRouter>
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/TvShows" element={<Home />} />
             <Route path="/showdetails/:id" element={<ShowDetails />} />
           </Routes>
         </BrowserRouter>
